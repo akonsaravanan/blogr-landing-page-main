@@ -45,16 +45,21 @@ body {
   margin: 0 auto;
   min-height: 100vh;
   width: 100vw;
-  /* background-image: url("images/bg-pattern-intro-desktop.svg"); */
+  /* background-image: url("images/bg-pattern-circles.svg"); */
 }
 header {
   padding: 50px 150px;
-  background: linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  background: linear-gradient(hsl(13, 86%, 73%), hsl(353, 100%, 62%));
   display: flex;
   /* align-items: center; */
   justify-content: center;
   flex-direction: column;
   border-bottom-left-radius: 80px;
+  background-image: url("images/bg-pattern-intro-desktop.svg");
+  background-size: contain;
+  background-position: right bottom;
+  background-color: hsl(353, 100%, 62%);
+  background-repeat: no-repeat;
 }
 
 header a {
@@ -217,6 +222,11 @@ header a:hover {
   justify-content: space-around;
   border-bottom-left-radius: 100px;
   border-top-right-radius: 100px;
+  background-image: url("images/bg-pattern-circles.svg");
+  background-size: contain;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-color: hsl(240, 47%, 14%);
 }
 
 .phone-img {
