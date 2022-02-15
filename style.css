@@ -40,6 +40,7 @@ Background gradient - body:
 }
 
 body {
+  overflow-x: hidden;
   font-family: "Overpass", sans-serif;
   font-size: 16px;
   margin: 0 auto;
